@@ -1,0 +1,14 @@
+public class main {
+    public static void main(String[] args)
+    {
+        int val = 3;
+        int updval; 
+        System.out.println("Original value: " + val);
+        updval = val * 2;
+        updval = updval + 6;
+        updval = updval / 2;
+        updval = updval - val;
+
+        System.out.println(updval);
+    }
+}
