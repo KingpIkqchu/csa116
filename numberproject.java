@@ -1,4 +1,4 @@
-public class main {
+public class numberproject {
     public static void main(String[] args)
     {
     // Positive Integer - Dylan 
