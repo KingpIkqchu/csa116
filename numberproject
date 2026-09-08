@@ -1,6 +1,7 @@
 public class main {
     public static void main(String[] args)
     {
+    // Positive Integer - Dylan 
         int val = 3;
         int updval; 
         System.out.println("Original value: " + val);
@@ -10,5 +11,16 @@ public class main {
         updval = updval - val;
 
         System.out.println(updval);
+    
+    // Negative Integer - Dylan 
+        int val2 = -3;
+        int updval2; 
+        System.out.println("Original value: " + val2);
+        updval2 = val2 * 2;
+        updval2 = updval2 + 6;
+        updval2 = updval2 / 2;
+        updval2 = updval2 - val2;
+
+        System.out.println(updval2);
     }
 }
