@@ -1,4 +1,4 @@
-public class numberproject {
+public class numberProject {
     public static void main(String[] args)
     {
     // Positive Integer - Dylan 
@@ -22,5 +22,27 @@ public class numberproject {
         updval2 = updval2 - val2;
 
         System.out.println(updval2);
+
+        // 0 - Tiger 
+        int val3 = 0;
+        int updval3; 
+        System.out.println("Original value: " + val3);
+        updval3 = val3 * 2;
+        updval3 = updval3 + 6;
+        updval3 = updval3 / 2;
+        updval3 = updval3 - val3;
+
+        System.out.println(updval3);
+    
+    // 1 - Tiger
+        int val4 = 1;
+        int updval4; 
+        System.out.println("Original value: " + val4);
+        updval4 = val4 * 2;
+        updval4 = updval4 + 6;
+        updval4 = updval4 / 2;
+        updval4 = updval4 - val4;
+
+        System.out.println(updval4);
     }
 }
