@@ -23,7 +23,7 @@ public class numberProject {
 
         System.out.println(updval2);
 
-        // 0 - Tiger 
+    // 0 - Tiger 
         int val3 = 0;
         int updval3; 
         System.out.println("Original value: " + val3);
@@ -44,5 +44,27 @@ public class numberProject {
         updval4 = updval4 - val4;
 
         System.out.println(updval4);
+
+    // Positive Double - 1.5 - Arjun
+        double val5 = 1.5;
+        double updval5; 
+        System.out.println("Original value: " + val5);
+        updval5 = val5 * 2;
+        updval5 = updval5 + 6;
+        updval5 = updval5 / 2;
+        updval5 = updval5 - val5;
+
+        System.out.println(updval5);
+
+    // Negative Double -1.5 - Arjun
+        double val6 = -1.5;
+        double updval6; 
+        System.out.println("Original value: " + val6);
+        updval6 = val6 * 2;
+        updval6 = updval6 + 6;
+        updval6 = updval6 / 2;
+        updval6 = updval6 - val6;
+
+        System.out.println(updval6);
     }
 }
